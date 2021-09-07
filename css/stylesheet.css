@@ -1,0 +1,202 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #e7e7e7;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* //// NAVBAR //// */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    background-color: #fff;
+    align-items: center;
+}
+
+
+.navitem1,
+.navitem2 {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 25px;
+    margin: 20px 10px;
+    color: white;
+    background-color: grey;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+
+}
+
+.navitem1:hover,
+.navitem2:hover {
+    cursor: pointer;
+    background-color: #acbfe298;
+    color: black;
+    transition: 350ms;
+}
+
+.leftnav {
+    padding: 10px 25px;
+    margin: 20px 10px;
+    font-size: 2em;
+    font-family: 'Erica One', cursive;
+    letter-spacing: 3px;
+
+}
+
+.rightnav {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+
+/* //// HERO //// */
+
+
+#profilepic {
+    max-width: 50vw;
+    max-height: 200px;
+    border-radius: 30px 0 30px 30px;
+    box-shadow: 3px 7px 8px #2e2e2e91;
+
+}
+
+.hero {
+    /* height: 60vh; */
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* border: 1px blue solid; */
+
+
+}
+
+/* .image,
+.main-intro {
+border: 1px red solid; 
+} */
+
+
+.image {
+    /* padding: 10px; */
+    margin-left: auto;
+    align-self: flex-start;
+    margin-right: -5vw;
+    z-index: 2;
+
+
+}
+
+.main-intro {
+    padding: 20px 40px 40px 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+    max-width: 50vw;
+    align-self: center;
+    margin-right: auto;
+    /* margin-top: 10px; */
+    border-radius: 30px;
+    background: #acbfe298;
+    box-shadow: 3px 3px 5px #00000059;
+
+}
+
+.main-intro h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+    font-family: 'Erica One', cursive;
+    letter-spacing: 3px;
+}
+
+.main-intro h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/* //// BODY ///// */
+
+.body-grid {
+    display: grid;
+    grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(150px, 475px)) minmax(1em, 1fr);    
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+.body-grid:last-child {
+    margin-bottom: 50px;
+}
+
+.bodypic,
+.body-text {
+    grid-column: 2 / span 1;
+}
+
+
+.bodypic {
+    max-width: 40vw;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.body-text {
+    /* border: 1px red solid;  */
+    max-width: 40vw;
+    text-align: center;
+    background-color: #acbfe298;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.body-text h2 {
+    font-size: 30px;
+}
+
+.body-text p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+
+/* //// BUTTONS //// */
+
+.div-cta {
+    display: grid;
+    width: 30vw;
+    margin: 0 auto;
+}
+
+.cta {
+    text-decoration: none;
+    list-style: none;
+    padding: 25px 45px;
+    margin: 20px 10px;
+    color: white;
+    background-color: grey;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.4em;
+    
+}
+
+.cta:hover{
+    cursor: pointer;
+    background-color: #acbfe298;
+    color: black;
+    transition: 350ms;
+}
