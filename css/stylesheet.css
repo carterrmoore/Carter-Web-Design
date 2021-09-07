@@ -156,6 +156,7 @@ border: 1px red solid;
     background-color: #acbfe298;
     border-radius: 15px;
     padding: 10px;
+    line-height: 1.5rem;
 }
 
 .body-text h2 {
